@@ -10,5 +10,8 @@
     "tdd"
   ],
   "author": "Maksim Morozov <maxmorozov.art@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
 }
