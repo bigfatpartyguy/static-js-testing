@@ -1,0 +1,14 @@
+{
+  "name": "static-js-testing",
+  "version": "1.0.0",
+  "description": "A repo to learn tools for static js testing",
+  "main": "/src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "Maksim Morozov <maxmorozov.art@gmail.com>",
+  "license": "MIT"
+}
