@@ -5,7 +5,8 @@
   "main": "/src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
+    "check-types": "tsc"
   },
   "keywords": [
     "tdd"
@@ -13,6 +14,10 @@
   "author": "Maksim Morozov <maxmorozov.art@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "^4.3.5"
   }
 }
